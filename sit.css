@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+}
+body{
+	background: lightgrey;
+	font-family:  Arial, sans-serif ;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 1s ease-in-out;
+	
+}
+h1{
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 20px rgba(0,0,0,0.5);
+	text-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+}
+h1:hover{
+font-family: Arial, Helvetica, sans-serif;
+color: #958686;
+font-size: 40px;
+font-weight: 700;
+text-shadow: 0 0 30px rgba(0,0,0,0.5);
+	text-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	transform: scale(1.1);
+	transition: all 500ms ease;
+	font-style: italic;
+}
+
+p{
+	
+	font-size: 15px;
+}
+#quote{
+	transition: opacity 0.3s ease-in-out ;
+	padding: 5px;
+}
+.citata{
+	color: #000;
+	background: white;
+	width: 380px;
+	border: 3px;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 20px;
+
+	
+
+}
+.btn{
+	display: flex;
+	justify-content: center;
+}
+button{
+	border: none;
+	background: orange;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	transition: all 500ms ease;
+
+}
+button:hover{
+	background: darkorange;
+	transform: scale(0.9);
+	cursor: pointer;
+}
